@@ -1,0 +1,24 @@
+.paginate-container {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.page-change-button {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.page-number-button {
+  background-color: #0a66c2;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  margin: 0.2rem;
+}
